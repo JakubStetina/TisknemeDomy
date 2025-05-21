@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TisknemeDomy.cz</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-[Inter] bg-gray-50 text-gray-800">
+
+  <!-- HEADER with logo -->
+  <header class="bg-orange-500 text-white py-8 px-6 text-center">
+    <img src="logo.png" alt="Logo TisknemeDomy.cz" class="h-16 mx-auto mb-4">
+    <h1 class="text-3xl font-bold mb-2">Pronájem profesionálních 3D tiskáren pro výstavbu rodinných domů</h1>
+    <p class="text-lg">Ušetřete čas i náklady s technologií, která mění stavebnictví.</p>
+    <a href="#kontakt" class="mt-4 inline-block bg-white text-orange-500 font-bold px-6 py-3 rounded-xl shadow hover:bg-orange-100 transition">ZÍSKEJTE NABÍDKU</a>
+  </header>
+
+  <!-- SPECIFIKACE -->
+  <section class="py-16 px-6 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-bold mb-4 text-center">Specifikace stroje COBOD BOD2</h2>
+    <ul class="list-disc list-inside space-y-2 text-lg">
+      <li>Maximální tisková výška: 8,1 m + základová vrstva</li>
+      <li>Maximální tisková šířka: 14,6 m</li>
+      <li>Rychlost tisku: až 1000 mm/s</li>
+      <li>Výška vrstvy: 5–40 mm</li>
+      <li>Šířka vrstvy: 30–300 mm</li>
+      <li>Průtok materiálu: až 7,2 m³/h</li>
+      <li>Maximální velikost kameniva: 10 mm</li>
+      <li>Doporučený počet obsluhy: 3–4 osoby</li>
+    </ul>
+  </section>
+
+  <!-- GALERIE stroje -->
+  <section class="bg-white py-16 px-6 max-w-7xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6 text-center">Fotografie stroje COBOD BOD2</h2>
+    <div class="grid md:grid-cols-3 gap-4">
+      <img src="images/cobod1.jpg" alt="COBOD BOD2 tiskárna 1" class="rounded-xl shadow">
+      <img src="images/cobod2.jpg" alt="COBOD BOD2 tiskárna 2" class="rounded-xl shadow">
+      <img src="images/cobod3.jpg" alt="COBOD BOD2 tiskárna 3" class="rounded-xl shadow">
+    </div>
+  </section>
+
+  <!-- GALERIE ukázky domů -->
+  <section class="py-16 px-6 max-w-7xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6 text-center">Ukázky 3D tištěných domů</h2>
+    <div class="grid md:grid-cols-3 gap-4">
+      <img src="images/house1.jpg" alt="3D tištěný dům 1" class="rounded-xl shadow">
+      <img src="images/house2.jpg" alt="3D tištěný dům 2" class="rounded-xl shadow">
+      <img src="images/house3.jpg" alt="3D tištěný dům 3" class="rounded-xl shadow">
+    </div>
+  </section>
+
+  <!-- ČASTÉ DOTAZY -->
+  <section class="bg-white py-16 px-6 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6 text-center">Časté dotazy</h2>
+    <div class="space-y-6 text-lg">
+      <div>
+        <h3 class="font-semibold">Kolik stojí pronájem 3D tiskárny?</h3>
+        <p>Cena začíná na 75 000 Kč/den, variabilní podle délky pronájmu a lokality.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold">Jaké domy lze tisknout?</h3>
+        <p>Rodinné domy do 200 m², vícepodlažní konstrukce až do 8 m výšky.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold">Potřebuji stavební povolení?</h3>
+        <p>Ano, tisk vyžaduje standardní stavební povolení a geotechnické posouzení pozemku.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold">Jak dlouho trvá tisk domu?</h3>
+        <p>Stroj vytiskne základní konstrukci 150 m² domu za 24–48 hodin.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAKT -->
+  <section id="kontakt" class="py-16 px-6 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-bold mb-4 text-center">Kontaktujte nás</h2>
+    <form class="space-y-4 text-lg">
+      <input type="text" placeholder="Vaše jméno" class="w-full p-3 border rounded-xl" required />
+      <input type="email" placeholder="Váš e-mail" class="w-full p-3 border rounded-xl" required />
+      <textarea placeholder="Zpráva nebo dotaz" class="w-full p-3 border rounded-xl" rows="4" required></textarea>
+      <button type="submit" class="bg-orange-500 text-white px-6 py-3 rounded-xl hover:bg-orange-600 transition w-full">Odeslat</button>
+    </form>
+  </section>
+
+  <!-- PATIČKA -->
+  <footer class="bg-gray-800 text-white text-center py-6 text-sm">
+    &copy; 2025 TisknemeDomy.cz – Všechna práva vyhrazena
+  </footer>
+</body>
+</html>
